@@ -9,7 +9,7 @@ export default function Education({ education }) {
           {education.map(
             (school) =>
               school.visible && (
-                <li key={school.name} className="listContent">
+                <li key={school.id} className="listContent">
                   <div className="info">
                     <p>
                       {school.start} - {school.end}
